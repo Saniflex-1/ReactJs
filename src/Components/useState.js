@@ -15,37 +15,58 @@ function UseState() {
   function handlePrevious() {
     if (step > 1) setStep(step - 1);
   }
+
+  const [isOepn, setIsOpen] = useState(true);
+  function toggleButton() {
+    setIsOpen(!isOepn);
+  }
+
   return (
-    <div className="steps">
-      <div className="numbers">
-        <div className={step >= 1 ? "active" : ""}>1</div>
-        <div className={step >= 2 ? "active" : ""}>2</div>
-        <div className={step >= 3 ? "active" : ""}>3</div>
-      </div>
+    <>
+      <button
+        style={{
+          color: "olive",
+          marginLeft: "500px",
+          fontSize: "2rem",
+          marginTop: "20px",
+        }}
+        onClick={toggleButton}
+      >
+        &times;
+      </button>
+      {isOepn && (
+        <div className="steps">
+          <div className="numbers">
+            <div className={step >= 1 ? "active" : ""}>1</div>
+            <div className={step >= 2 ? "active" : ""}>2</div>
+            <div className={step >= 3 ? "active" : ""}>3</div>
+          </div>
 
-      <div className="messages">
-        Step {step}:{messages[step - 1]}
-      </div>
+          <div className="messages">
+            Step {step}:{messages[step - 1]}
+          </div>
 
-      <div className="button">
-        <button
-          style={{ backgroundColor: "aqua", color: "black" }}
-          onClick={handlePrevious}
-        >
-          Previous
-        </button>
-        <button
-          style={{ backgroundColor: "aqua", color: "black" }}
-          onClick={handleNext}
-        >
-          Next
-        </button>
-      </div>
+          <div className="button">
+            <button
+              style={{ backgroundColor: "aqua", color: "black" }}
+              onClick={handlePrevious}
+            >
+              Previous
+            </button>
+            <button
+              style={{ backgroundColor: "aqua", color: "black" }}
+              onClick={handleNext}
+            >
+              Next
+            </button>
+          </div>
 
-      <h2>
-        Progress: <progress value={"65"} max={"100"}></progress>65%
-      </h2>
-    </div>
+          <h2>
+            Progress: <progress value={"65"} max={"100"}></progress>65%
+          </h2>
+        </div>
+      )}
+    </>
   );
 }
 
