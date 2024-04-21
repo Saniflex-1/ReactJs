@@ -78,7 +78,10 @@ function UseState() {
           </h2>
 
           <h2 style={{ color: "white", fontSize: "2.5rem" }}>{count}</h2>
-          <button onClick={addNext}> Increments</button>
+          <button onClick={addNext} style={{ margin: "10px", color: "olive" }}>
+            {" "}
+            Increments
+          </button>
           <button onClick={addPre}> Previous</button>
         </div>
       )}
