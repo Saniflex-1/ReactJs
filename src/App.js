@@ -4,7 +4,7 @@ import UseState from "./Components/useState";
 function App() {
   return (
     <div style={{ backgroundColor: "olive", height: "100vh" }}>
-      <UseState />
+      <UseState isGood={true} />
       {/* <StdudentID /> */}
     </div>
   );
