@@ -21,6 +21,18 @@ function UseState() {
     setIsOpen((is) => !is);
   }
 
+  // Counter
+  const [count, setCount] = useState(0);
+
+  function addNext() {
+    if (count < 9) setCount((c) => c + 1);
+  }
+  function addPre() {
+    if (count > 1) {
+      setCount(count - 1);
+    }
+  }
+
   return (
     <>
       <button
@@ -64,6 +76,10 @@ function UseState() {
           <h2>
             Progress: <progress value={"65"} max={"100"}></progress>65%
           </h2>
+
+          <h2 style={{ color: "white", fontSize: "2.5rem" }}>{count}</h2>
+          <button onClick={addNext}> Increments</button>
+          <button onClick={addPre}> Previous</button>
         </div>
       )}
     </>
