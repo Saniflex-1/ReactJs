@@ -6,7 +6,7 @@ const messages = [
   "Invest it into your busiiness",
 ];
 
-function UseState() {
+function UseState(isGood) {
   const [step, setStep] = useState(1);
 
   function handleNext() {
@@ -78,9 +78,12 @@ function UseState() {
           </h2>
 
           <h2 style={{ color: "white", fontSize: "2.5rem" }}>{count}</h2>
-          <button onClick={addNext} style={{ margin: "10px", color: "olive" }}>
-            {" "}
-            Increments
+          <button
+            onClick={addNext}
+            style={{ margin: "10px", color: "olive" }}
+            class={count > 2 ? "isGoodS" : ""}
+          >
+            Increments {isGood && "👌"}
           </button>
           <button onClick={addPre}> Previous</button>
         </div>
