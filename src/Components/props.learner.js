@@ -1,6 +1,8 @@
 import { useState } from "react";
 import PropType from "prop-types";
 
+const pro = ["Biscuit", "Choco", "All"];
+
 function Students() {
   return (
     <div>
@@ -13,17 +15,15 @@ function Students() {
 }
 
 function StudentDetails(props) {
-  const [product, setProduct] = useState("Rice");
+  const [product, setProduct] = useState(1);
   return (
     <div className="students">
       <h2>Name: {props.name}</h2>
       <p>Age: {props.Age}</p>
       <p>Gender: {props.gender}</p>
       <p>Student: {props.isStudent ? "Yes" : "No"}</p>
-      <button onClick={() => setProduct(["Biscuit", "Choco", "All"])}>
-        ChangeProduct
-      </button>
-      <p>product: {product}</p>
+      <button onClick={() => setProduct((s) => s + 1)}>ChangeProduct</button>
+      <p>product: {pro[product + 1]}</p>
     </div>
   );
 }
