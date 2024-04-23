@@ -7,6 +7,6 @@ import App from "./app";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App name="great" />
+    <App />
   </React.StrictMode>
 );
