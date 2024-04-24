@@ -1,11 +1,14 @@
-import UseState from "./Components/useState";
-import StdudentID from "./Components/props.learner";
+// import UseState from "./Components/useState";
+// import StdudentID from "./Components/props.learner";
+
+import NavBars from "./Components/nav.links";
 
 function App() {
   return (
-    <div style={{ backgroundColor: "olive", height: "100vh" }}>
-      <UseState isGood={true} />
-      <StdudentID />
+    <div>
+      <NavBars />
+      {/* <UseState />
+      <StdudentID /> */}
     </div>
   );
 }
