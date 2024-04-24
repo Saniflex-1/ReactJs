@@ -72,3 +72,44 @@ button {
   color: rgb(71, 15, 15);
   border: 1px solid rgba(114, 5, 5, 0.4);
 }
+
+.nav {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 150px;
+  margin-right: 150px;
+  /* background-color: antiquewhite; */
+  padding: 4px;
+  align-items: center;
+}
+button.humberg {
+  position: absolute;
+  right: -50px;
+  color: blue;
+  font-size: 30px;
+  width: 30px;
+  background-color: transparent;
+  transition: all ease 0.4s;
+}
+
+button.humberg:hover {
+  transform: rotate(360deg);
+}
+
+.nav-links {
+  display: flex;
+  gap: 50px;
+}
+
+.nav-links a {
+  font-size: 16px;
+  font-family: "poppins", sans-serif;
+}
+
+.search input {
+  border: 1px solid olive;
+  border-radius: 10px;
+  padding: 2px;
+  text-align: center;
+}
