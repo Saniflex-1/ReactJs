@@ -1,5 +1,5 @@
 import UseState from "./Components/useState";
-// import StdudentID from "./Components/props.learner";
+import StdudentID from "./Components/props.learner";
 
 import NavBars from "./Components/nav.links";
 
@@ -8,7 +8,7 @@ function App() {
     <div>
       <NavBars />
       <UseState />
-      {/* <StdudentID /> */}
+      <StdudentID />
     </div>
   );
 }
