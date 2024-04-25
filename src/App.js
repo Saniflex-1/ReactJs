@@ -7,8 +7,8 @@ function App() {
   return (
     <div>
       <NavBars />
-      <UseState />
-      <StdudentID />
+      {/* <UseState />
+      <StdudentID /> */}
     </div>
   );
 }
