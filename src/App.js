@@ -1,16 +1,15 @@
-import UseState from "./Components/useState";
+// import UseState from "./Components/useState";
 // import StdudentID from "./Components/props.learner";
 
 import NavBars from "./Components/nav.links";
+import HomePage from "./Components/home";
 
 function App() {
   return (
     <div>
       <NavBars />
-      {/* <StdudentID /> */}
-
-      <div className="down">
-        <UseState />
+      <div>
+        <HomePage />
       </div>
     </div>
   );
