@@ -13,7 +13,7 @@ function NavBar() {
       {isOpen && (
         <div className="nav">
           <div className="logo">
-            <h2>Logo</h2>
+            <img src="./tog.gif" alt="log" />
           </div>
           <div className="nav-links">
             <li>
