@@ -4,9 +4,15 @@
   box-sizing: border-box;
   list-style-type: none;
   text-decoration: none;
+  background-color: antiquewhite;
 }
 
-.steps {
+body {
+  overflow-x: hidden;
+  position: relative;
+}
+
+/* .steps {
   display: flex;
   justify-content: space-evenly;
   flex-direction: column;
@@ -17,9 +23,9 @@
   width: 500px;
   height: 150px;
   margin-top: 20px;
-}
+} */
 
-.numbers {
+/* .numbers {
   position: relative;
   display: flex;
   justify-content: space-around;
@@ -27,9 +33,9 @@
   align-items: center;
   margin-bottom: 10px;
   height: 50vh;
-}
+} */
 
-.numbers div {
+/* .numbers div {
   border-radius: 100px;
   width: 35px;
   height: 35px;
@@ -37,20 +43,20 @@
   justify-content: center;
   align-items: center;
   border: 2px solid white;
-}
+} */
 
-.messages {
+/* .messages {
   margin-bottom: 10px;
-}
+} */
 
-.button {
+/* .button {
   display: flex;
   justify-content: space-around;
   width: 100%;
   margin-top: 20px;
-}
+} */
 
-button {
+/* button {
   color: white;
   font-size: 18px;
   padding: 4px;
@@ -63,15 +69,15 @@ button {
   background-color: aqua;
   width: 35px;
   height: 35px;
-}
+} */
 
-.students {
+/* .students {
   margin-left: auto;
   margin-right: auto;
   max-width: 500px;
   color: rgb(71, 15, 15);
   border: 1px solid rgba(114, 5, 5, 0.4);
-}
+} */
 
 .nav {
   position: relative;
@@ -82,6 +88,8 @@ button {
   /* background-color: antiquewhite; */
   padding: 4px;
   align-items: center;
+  z-index: 2;
+  margin-top: 5px;
 }
 button.humberg {
   position: absolute;
@@ -100,11 +108,19 @@ button.humberg:hover {
 .nav-links {
   display: flex;
   gap: 50px;
+  z-index: 5;
 }
 
 .nav-links a {
-  font-size: 16px;
+  font-size: 15px;
   font-family: "poppins", sans-serif;
+  color: rgb(11, 83, 142);
+  transition: all ease;
+  font-weight: 400;
+}
+
+.nav-links a:hover {
+  color: brown;
 }
 
 .search input {
@@ -112,4 +128,79 @@ button.humberg:hover {
   border-radius: 10px;
   padding: 2px;
   text-align: center;
+  z-index: 1;
+}
+
+/* .down {
+  width: 100%;
+  height: 390px;
+  background-color: aquamarine;
+  margin-left: 20px;
+  margin-right: -150px;
+} */
+
+.logo img {
+  width: 40px;
+  border-radius: 20px 40px 20px 0px;
+}
+
+.homeMe {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.homeCont {
+  position: relative;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cont img {
+  margin-top: -80px;
+  width: 420px;
+}
+
+.cont {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.cont h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  font-family: "poppins", sans-serif;
+  line-height: 60px;
+}
+
+.cont p {
+  font-weight: 600;
+  font-size: 10px;
+  margin-bottom: 10px;
+  margin-top: 18px;
+  font-family: "poppins", sans-serif;
+}
+
+.home-shop button {
+  height: 50px;
+  width: 200px;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+}
+
+.homeBottom {
+  width: 100%;
+  height: 120px;
+  background-color: black;
+  margin-top: -90px;
+  z-index: -1;
+  position: absolute;
+  padding: 7px;
+  color: aliceblue;
 }
