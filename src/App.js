@@ -3,6 +3,7 @@
 
 import NavBars from "./Components/nav.links";
 import HomePage from "./Components/home";
+import HomeColor from "./Components/home.color";
 
 function App() {
   return (
@@ -10,6 +11,10 @@ function App() {
       <NavBars />
       <div>
         <HomePage />
+      </div>
+
+      <div style={{ marginTop: "100px" }}>
+        <HomeColor />
       </div>
     </div>
   );
