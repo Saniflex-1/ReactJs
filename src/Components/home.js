@@ -16,22 +16,36 @@ function HomePage() {
               <button className="shop-btn">Shop now</button>
             </div>
           </div>
-          <div className="cont">
+          <div className="conts">
             <img src="assets/s1.png" alt="beauty" />
           </div>
         </div>
-      </div>
 
-      <div className="homeBottom">
-        <div className="bottomHome">
-          <div className="sec">
+        {/* Home footer */}
+        <div className="homeFooter">
+          <div className="homeFootItems">
             <p>
-              Explore our color <br /> Community
+              Connect with <br /> our Communitues
             </p>
           </div>
-          <div className="sec">
+          <div className="homeFootItems">
             <p>
-              Explore our color <br /> Community
+              Connect with <br /> our Communitues
+            </p>
+          </div>
+          <div className="homeFootItems">
+            <p>
+              Connect with <br /> our Communitues
+            </p>
+          </div>
+          <div className="homeFootItems">
+            <p>
+              Connect with <br /> our Communitues
+            </p>
+          </div>
+          <div className="homeFootItems">
+            <p>
+              Connect with <br /> our Communitues
             </p>
           </div>
         </div>
