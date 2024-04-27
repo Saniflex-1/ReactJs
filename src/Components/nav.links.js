@@ -35,7 +35,6 @@ function NavBar() {
               </li>
             </div>
           )}
-
           <div className="search">
             <input type="text" placeholder="search items" />
           </div>
