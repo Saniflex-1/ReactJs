@@ -1,16 +1,12 @@
-import { useState } from "react";
+// import { useState } from "react";
 
 function NavBar() {
-  const [isOpen, setIsOpen] = useState(true);
-  function humber() {
-    setIsOpen((is) => !is);
-  }
   return (
     <>
-      <button className="humberg" onClick={humber}>
+      {/* <button className="humberg" onClick={humber}>
         &times;
-      </button>
-      {isOpen && (
+      </button> */}
+      {
         <div className="nav">
           <div className="logo">
             <img src="./tog.gif" alt="log" />
@@ -37,7 +33,7 @@ function NavBar() {
             <input type="text" placeholder="search items" />
           </div>
         </div>
-      )}
+      }
     </>
   );
 }
