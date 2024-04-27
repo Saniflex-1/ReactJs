@@ -25,27 +25,48 @@ function HomePage() {
         <div className="homeFooter">
           <div className="homeFootItems">
             <p>
-              Connect with <br /> our Communitues
+              Explore our colour <br /> Communities{" "}
             </p>
           </div>
           <div className="homeFootItems">
-            <p>
-              Connect with <br /> our Communitues
-            </p>
+            <div
+              className="foot"
+              style={{
+                display: "flex",
+                alignItems: "center",
+                gap: "10px",
+                fontFamily: "poppins",
+                lineHeight: "15px",
+              }}
+            >
+              <img
+                src="assets/w4.jpg"
+                alt="wills"
+                style={{
+                  width: "37px",
+                  borderRadius: "100px",
+                  height: "37px",
+                  // objectFit: "cover",
+                }}
+              />
+              <p style={{ fontSize: "12px" }}>
+                William Owusu at <br /> This Morning live
+              </p>
+            </div>
           </div>
           <div className="homeFootItems">
-            <p>
-              Connect with <br /> our Communitues
-            </p>
+            <p>Connect with our Communitues</p>
           </div>
           <div className="homeFootItems">
-            <p>
-              Connect with <br /> our Communitues
-            </p>
+            <p>Connect with our Communitues</p>
           </div>
           <div className="homeFootItems">
+            <p>Connect with our Communitues</p>
+          </div>
+
+          <div className="codies">
             <p>
-              Connect with <br /> our Communitues
+              Natural Beauty comes from <span>Codies Store</span>
             </p>
           </div>
         </div>
