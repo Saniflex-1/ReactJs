@@ -13,7 +13,7 @@ function App() {
         <HomePage />
       </div>
 
-      <div style={{ marginTop: "100px" }}>
+      <div>
         <HomeColor />
       </div>
     </div>
