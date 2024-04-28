@@ -23,7 +23,7 @@ function HomeColor() {
           <div className="pro">
             <img src="assets/ban.jpg" alt="bank" />
             <span></span>
-            <p>Permanent Color Kits</p>
+            <p>Local goods</p>
           </div>
         </div>
       </div>
