@@ -97,6 +97,31 @@
   }
 
   .home-ceal {
-    margin-top: 200px;
+    position: absolute;
+    margin-top: 55px;
+    z-index: -2;
+    background-color: white;
+    height: fit-content;
+  }
+
+  .home-ceal h5 {
+    margin-top: 100px;
+  }
+
+  .home-ceal h2 {
+    text-align: center;
+    line-height: 35px;
+  }
+
+  .pro {
+    margin-bottom: 50px;
+    background-color: rgb(4, 54, 37);
+    width: 200px;
+    height: 220px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+    padding-left: 20px;
   }
 }
