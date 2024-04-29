@@ -10,7 +10,7 @@ function HomeColor() {
         </h6>
 
         <div className="img-products">
-          <div className="pro">
+          <div className="pro" style={{ backgroundColor: "purple" }}>
             <img src="assets/ban.jpg" alt="bank" />
             <span></span>
             <p>Permanent Color Kits</p>
@@ -20,7 +20,7 @@ function HomeColor() {
             <span></span>
             <p>Permanent Color Kits</p>
           </div>
-          <div className="pro">
+          <div className="pro" style={{ backgroundColor: "orangered" }}>
             <img src="assets/ban.jpg" alt="bank" />
             <span></span>
             <p>Local goods</p>
