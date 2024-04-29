@@ -124,4 +124,8 @@
 
     padding-left: 20px;
   }
+
+  .img-products {
+    transform: scale(1.1);
+  }
 }
