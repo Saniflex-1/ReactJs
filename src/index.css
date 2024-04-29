@@ -149,7 +149,7 @@ body {
 
 .home-ceal {
   position: relative;
-  background-color: aliceblue;
+  background-color: rgb(243, 244, 245);
   width: 100%;
   height: 100vh;
   display: flex;
@@ -191,7 +191,7 @@ body {
   width: 110px;
   height: 150px;
   object-fit: cover;
-  margin-left: 80px;
+  margin-left: 50px;
   margin-top: -30px;
   box-shadow: 0px 0px 18px 0px black;
 }
@@ -200,4 +200,25 @@ body {
   background-color: rgb(4, 54, 37);
   width: 200px;
   height: 220px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+
+  padding-left: 20px;
+}
+
+.pro span {
+  background-color: white;
+  width: 40px;
+  height: 2px;
+  /* bottom: 0; */
+  /* position: absolute; */
+  margin-top: 30px;
+}
+
+.pro p {
+  font-size: 12px;
+  color: white;
+  margin-top: 10px;
+  font-family: "poppins", sans-serif;
 }
