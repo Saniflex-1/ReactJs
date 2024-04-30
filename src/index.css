@@ -218,8 +218,17 @@ body {
 }
 
 .pro p {
-  font-size: 12px;
+  font-size: 10px;
   color: white;
   margin-top: 10px;
   font-family: "poppins", sans-serif;
+  margin-top: 1px;
+  line-height: 13px;
+}
+
+.pro h3 {
+  color: white;
+  font-family: "poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
 }
