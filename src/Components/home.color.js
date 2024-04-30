@@ -11,19 +11,22 @@ function HomeColor() {
 
         <div className="img-products">
           <div className="pro" style={{ backgroundColor: "purple" }}>
-            <img src="assets/ban.jpg" alt="bank" />
+            <img src="assets/pro3/anti-age.png" alt="anti-aging" />
             <span></span>
-            <p>Permanent Color Kits</p>
+            <h3>Anti-Aging facial oil</h3>
+            <p>Codies beauty channel, anti aging facial oil.</p>
           </div>
           <div className="pro">
-            <img src="assets/ban.jpg" alt="bank" />
+            <img src="assets/pro3/facial.png" alt="bank" />
             <span></span>
-            <p>Permanent Color Kits</p>
+            <h3>Carrot facial soap</h3>
+            <p>Codies beauty channel, carrot facial soap.</p>
           </div>
           <div className="pro" style={{ backgroundColor: "orangered" }}>
-            <img src="assets/ban.jpg" alt="bank" />
+            <img src="assets/pro3/black.png" alt="bank" />
             <span></span>
-            <p>Local goods</p>
+            <h3>African Black Soap</h3>
+            <p>Codies beauty channel, anti aging facial oil.</p>
           </div>
         </div>
       </div>
