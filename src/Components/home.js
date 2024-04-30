@@ -2,6 +2,9 @@ function HomePage() {
   return (
     <>
       <div className="homeMe">
+        <h2>
+          The Codies <span>Store</span>
+        </h2>
         <div className="homeCont">
           <div className="cont">
             <h1>
@@ -17,7 +20,7 @@ function HomePage() {
             </div>
           </div>
           <div className="conts">
-            <img src="assets/s1.png" alt="beauty" />
+            <img src="assets/pro3/homepic.png" alt="beauty" />
           </div>
         </div>
 
