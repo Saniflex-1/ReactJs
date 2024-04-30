@@ -9,7 +9,7 @@
 body {
   overflow-x: hidden;
   position: relative;
-  background-color: rgb(236, 106, 223);
+  background-color: rgba(158, 99, 185, 0.477);
 }
 
 .nav {
