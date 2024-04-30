@@ -36,7 +36,7 @@ function NavBar() {
             </div>
           )}
           <div className="search">
-            <input type="text" placeholder="search items" />
+            <input type="search" placeholder="search items" />
           </div>
         </div>
       }
