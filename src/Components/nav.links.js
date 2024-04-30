@@ -11,7 +11,7 @@ function NavBar() {
       {
         <div className="nav">
           <div className="logo big">
-            <img src="./tog.gif" alt="log" />
+            <img src="./logo.png" alt="logo" />
           </div>
           <div className="logo small" onClick={toggle}>
             <img src="./tog.gif" alt="log" />
