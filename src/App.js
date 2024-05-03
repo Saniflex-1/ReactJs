@@ -4,6 +4,7 @@
 import NavBars from "./Components/nav.links";
 import HomePage from "./Components/home";
 import HomeColor from "./Components/home.color";
+import WhatClienntsSays from "./Components/clientSays";
 
 function App() {
   return (
@@ -15,6 +16,10 @@ function App() {
 
       <div>
         <HomeColor />
+      </div>
+
+      <div>
+        <WhatClienntsSays />
       </div>
     </div>
   );
