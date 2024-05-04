@@ -1,13 +1,18 @@
 function ClientsSays() {
   return (
     <>
-      <div className="clientd">
+      <div className="clitd">
         <div className="videoDiv">
           <ClientDetails com="COMMUNITY" />
         </div>
-        <div className="videoDiv">
+        <div className="videDiv">
           <ClientDetails videoSRC="./assets/pro3/codio.mp4" />
         </div>
+
+        <video src="./assets/pro3/codio.mp4" autoPlay>
+          {" "}
+          hello
+        </video>
       </div>
     </>
   );
