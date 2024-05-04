@@ -10,7 +10,11 @@ function App() {
   return (
     <div>
       <NavBars />
-      <div>
+      <HomePage />
+      <HomeColor />
+      <WhatClienntsSays />
+
+      {/* <div>
         <HomePage />
       </div>
 
@@ -20,7 +24,7 @@ function App() {
 
       <div>
         <WhatClienntsSays />
-      </div>
+      </div> */}
     </div>
   );
 }
