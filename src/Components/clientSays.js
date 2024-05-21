@@ -20,10 +20,12 @@ function ClientsSays() {
 
 function ClientDetails(props) {
   <>
-    <div className="manSays">
+    {/* <div className="manSays">
       <h6>{props.com}</h6>
       <video src={props.videoSRC}></video>
-    </div>
+    </div> */}
+
+    <h1>Hello clients</h1>
   </>;
 }
 
