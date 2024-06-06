@@ -1,4 +1,4 @@
-/* @media screen and (max-width: 1550px) {
+@media screen and (max-width: 1550px) {
 }
 @media screen and (max-width: 650px) {
   .nav {
@@ -131,4 +131,4 @@
   .img-products {
     transform: scale(1.1);
   }
-} */
+}
