@@ -11,6 +11,50 @@ body {
   position: relative;
   background-color: #f95ab6;
 }
+/* Learning css */
+
+.cent {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cent h3 {
+  color: white;
+}
+
+.cent button {
+  width: 40px;
+  height: 40px;
+  margin: 10px;
+  font-size: 20px;
+}
+
+.trips {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-color: aliceblue;
+}
+
+.trips .header {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  height: 60px;
+  align-items: center;
+  background-color: #f95ab6;
+}
+
+.trips .header p,
+h2,
+h3 {
+  font-size: 25px;
+}
+
+/* Ends */
 
 .nav {
   position: relative;
