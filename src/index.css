@@ -43,7 +43,7 @@ body {
   display: flex;
   justify-content: center;
   gap: 30px;
-  height: 60px;
+  height: 70px;
   align-items: center;
   background-color: #f161b5;
 }
@@ -52,6 +52,37 @@ body {
 h2,
 h3 {
   font-size: 25px;
+}
+
+.form {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: antiquewhite;
+}
+
+.pack {
+  background-color: rgb(63, 21, 21);
+  color: white;
+  display: flex;
+  justify-content: center;
+  height: 620px;
+}
+
+.pack h3 {
+  margin-top: 20px;
+}
+
+footer {
+  /* position: absolute; */
+  bottom: 0;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(69, 205, 69);
+  height: 40px;
 }
 
 /* Ends */
