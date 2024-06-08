@@ -1,13 +1,31 @@
 function FarAways() {
   return (
+    <div className="trips">
+      <Logo />
+    </div>
+  );
+}
+
+function Logo() {
+  return (
     <div>
-      <div className="trips">
-        <div className="header">
-          <h2>Logo</h2>
-          <h1>FAR AWAY</h1>
-          <h3>Enjoy your trips</h3>
-        </div>
-      </div>
+      <h2 className="header"> 🌴FAR AWAY💼</h2>
+    </div>
+  );
+}
+
+function PackList() {
+  return (
+    <div>
+      <h3>PackList</h3>
+    </div>
+  );
+}
+
+function Stats() {
+  return (
+    <div>
+      <footer>All right reserved</footer>
     </div>
   );
 }
