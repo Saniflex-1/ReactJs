@@ -2,6 +2,9 @@ function FarAways() {
   return (
     <div className="trips">
       <Logo />
+      <Form />
+      <PackList />
+      <Stats />
     </div>
   );
 }
@@ -13,10 +16,17 @@ function Logo() {
     </div>
   );
 }
+function Form() {
+  return (
+    <div className="form">
+      <h2>What do you need for your 💕 trip</h2>
+    </div>
+  );
+}
 
 function PackList() {
   return (
-    <div>
+    <div className="pack">
       <h3>PackList</h3>
     </div>
   );
