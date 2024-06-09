@@ -1,3 +1,24 @@
+const initialItems = [
+  {
+    id: 1,
+    description: "Passport",
+    quantity: 2,
+    packed: true,
+  },
+  {
+    id: 2,
+    description: "Socks",
+    quantity: 12,
+    packed: false,
+  },
+  {
+    id: 3,
+    description: "Food",
+    quantity: 20,
+    packed: true,
+  },
+];
+
 function FarAways() {
   return (
     <div className="trips">
@@ -17,17 +38,44 @@ function Logo() {
   );
 }
 function Form() {
+  function handleSubmit(e) {
+    e.preventDefault();
+  }
+
   return (
-    <div className="form">
+    <form className="form" onSubmit={handleSubmit}>
       <h2>What do you need for your 💕 trip</h2>
-    </div>
+      <select>
+        {Array.from({ length: 20 }, (_, i) => i + 1).map((num) => (
+          <option value={num} key={num}>
+            {num}
+          </option>
+        ))}
+      </select>
+      <input text placeholder="Item...." />
+      <button>ADD</button>
+    </form>
   );
 }
 
 function PackList() {
   return (
-    <div className="pack">
-      <h3>PackList</h3>
+    <ul className="pack">
+      {initialItems.map((item) => (
+        <Item item={item} />
+      ))}
+    </ul>
+  );
+}
+
+function Item({ item }) {
+  return (
+    <div className="item">
+      <li>
+        <span style={item.packed ? { textDecoration: "line-through" } : {}}>
+          {item.quantity} {item.description} <button>❌</button>
+        </span>
+      </li>
     </div>
   );
 }
