@@ -104,7 +104,7 @@ function Item({ item }) {
 function Stats() {
   return (
     <div>
-      <footer>All right reserved</footer>
+      <footer>All right reserved.</footer>
     </div>
   );
 }
