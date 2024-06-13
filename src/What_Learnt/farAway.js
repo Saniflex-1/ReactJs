@@ -104,7 +104,7 @@ function Item({ item }) {
 function Stats() {
   return (
     <div>
-      <footer>All right reserved.</footer>
+      <footer>Keep it clean. All right reserved.</footer>
     </div>
   );
 }
